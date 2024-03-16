@@ -1,5 +1,5 @@
 import React from "react";
-import { User, columns } from "./Column";
+import { User, columns } from "./column";
 import { DataTable } from "@/components/data-table";
 
 async function getUsers():Promise<User[]> {
